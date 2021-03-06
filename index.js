@@ -15,8 +15,3 @@ clipboardy.writeSync(address);
 console.log();
 console.log(`Address ${address} copied to clipboard`);
 console.log();
-
-// const thing = Object.values(networkInterfaces())
-//     .filter((networkInterface) => networkInterface.some(isExternal))
-//     .filter((nets) => nets.some(isIPv4))[0]
-//     .filter(isIPv4)[0].address;
